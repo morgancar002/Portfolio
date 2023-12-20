@@ -1,10 +1,13 @@
-header {
+.header {
   display: flex;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   justify-content: space-between;
   align-items: center;
   padding: 1%;
+  margin: 3px 3px;
+  border: 2px;
+  border-color: rgb(128, 128, 210);
   background-color: #23374a;
   color: #a1b2ea;
 }
