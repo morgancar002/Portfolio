@@ -2,26 +2,25 @@
   display: flex;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   padding: 1%;
   margin: 3px 3px;
   border: 2px;
-  border-color: rgb(128, 128, 210);
-  background-color: #23374a;
-  color: #a1b2ea;
+  border-color: #FFEAA3;
+  background-color: #D47B39;
 }
 
 nav {
   display: flex;
-  flex-direction: column;
-  list-style-type: square;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-.subtitle p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.subtitle {
+  display: block;
+  text-align: center;
   background-color: red;
 }
 
@@ -33,8 +32,16 @@ nav {
   grid-template-rows: auto;
 }
 
+.aside {
+  display: grid;
+  
+}
+
 .main {
   background-color: #070f2b;
   text-align: center;
 }
 
+.images {
+  border-radius: 3px;
+}
