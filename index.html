@@ -2,46 +2,62 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="../portfolio/assets/style.css">
+    <link rel="stylesheet" href="../portfolio/assets/style.css" />
     <title>Portfolio Website</title>
   </head>
   <body>
-      <header>
+    <header>
       <h1>Morgan Carolin's Portfolio</h1>
       <nav role="navigation">
         <ul class="nav_link">
           <div class="nav">
             <li><a href="#">About Me</a></li>
             <li><a href="#">Work</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Resume</a></li>
           </div>
-        </ul> 
+        </ul>
       </nav>
-      <a class="cta" href="#"><button>click me</button></a>
     </header>
-    <div class="grid">
     <div class="subtitle">
-      <p>This is a subtitle.</p>
+      <h4>
+        Welcome to my portfolio website. Thank you for
+        visiting!
+      </h4>
     </div>
-      <aside>
-      <div id="container">
-        <div><h2>About Me</h2></div>
-        <div><h2>Work</h2></div>
-        <div><h2>Contact</h2></div>
-        <div><h2>Resume</h2></div>
+    <div class="grid">
+      <div id="left">
+        <div class="aboutme"><h2>About Me</h2>
+        <img src="../portfolio/assets/placeholder.jpg" width=100px>
+        </div>
+        <div class><h2>Work</h2></div>
       </div>
-      </aside>
-      <div class="main">
-        <p>This is a paragraph about me.</p>
+      <div id="right">
+        <div id="about">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos,
+          dolores veniam ipsum debitis quis consectetur, tempore beatae
+          explicabo amet consequatur aperiam, unde architecto dolorum maxime
+          distinctio aspernatur commodi expedita sunt aliquam officia nemo.
+        </p>
+        </div>
         <div class="images">
-          <img src="../portfolio/assets/bigbend1.jpg">
-          <img src="../portfolio/assets/bigbend2.jpg">
-          <img src="../portfolio/assets/bigbend3.jpg">
-          <img src="../portfolio/assets/bigbend4.jpg">
-          <img src="../portfolio/assets/bigbend5.jpg">
+          <div id="img1">
+          <img src="../portfolio/assets/bigbend1.jpg" width="800px" />
+          </div>
+          <div id="img2">
+          <img src="../portfolio/assets/bigbend2.jpg" width="500px"/>
+        </div>
+          <div id="img3">
+          <img src="../portfolio/assets/bigbend3.jpg" width="500px"/>
+        </div>
+          <div id="img4">
+          <img src="../portfolio/assets/bigbend4.jpg" width="500px"/>
+        </div>
         </div>
       </div>
     </div>
   </body>
+  <footer>
+    <h2>Contact</h2>
+    <p>This is the footer.</p>
+  </footer>
 </html>
